@@ -12,5 +12,7 @@ namespace AsyncInn.Models
 
         // Navigation Properties
         public ICollection<RoomAmenity> RoomAmenities { get; set; }
+
+
     }
 }
