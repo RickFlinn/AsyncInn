@@ -14,7 +14,6 @@ namespace AsyncInn
 {
     public class Startup
     {
-       
 
         public IConfiguration Configuration { get; }
 
