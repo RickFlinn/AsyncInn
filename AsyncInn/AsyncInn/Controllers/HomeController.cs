@@ -15,5 +15,39 @@ namespace AsyncInn.Controllers
         }
 
         
+        public IActionResult Hotels()
+        {
+            return View();
+        }
+
+        public IActionResult Amenities()
+        {
+            return View();
+        }
+
+        public IActionResult Rooms()
+        {
+            return View();
+        }
+
+        
+        public IActionResult AddARoom()
+        {
+            
+            return View();
+        }
+
+        public IActionResult AddAmenities()
+        {
+            return View();
+        }
+
+        // 
+        [HttpPost]
+        public IActionResult Rooms(int roomID)
+        {
+            // query db for room and render to page
+            return View();
+        }
     }
 }
