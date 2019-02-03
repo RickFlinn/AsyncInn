@@ -1,0 +1,32 @@
+﻿@model IEnumerable<AsyncInn.Models.HotelLocation>
+@using AsyncInn.Models;
+
+
+@{
+    Layout = "_Layout";
+}
+
+
+<table class="table table-striped table-hover">
+    <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">AsycInn Location</th>
+            <th scope="col">Address</th>
+            <th scope="col">Phone Number</th>
+        </tr>
+    </thead>
+    <tbody>
+   @foreach (HotelLocation location in Model)
+    { 
+        <tr>
+            <th scope="col">@location.ID</th>
+            <td scope="col">
+                <a href="/HotelLocations/Details/@location.ID">@location.Name</a>
+            </td>
+            <td scope="col">@location.Address</td>
+            <td scope="col">@location.Phone</td>
+        </tr>
+    }
+    </tbody>
+</table>

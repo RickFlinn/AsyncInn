@@ -5,6 +5,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using AsyncInn.Data;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace AsyncInn.Controllers
 {
