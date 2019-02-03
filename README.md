@@ -1,5 +1,5 @@
 # ASyncInn
-
+## Deployed at [https://asyncinny.azurewebsites.net/](https://asyncinny.azurewebsites.net/)
 ASyncInn is an MVC, single-page web application designed for Hotel management. It allows users to perform CRUD operations on Hotel location, room, and amenity data. 
 
 
